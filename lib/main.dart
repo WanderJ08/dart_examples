@@ -19,7 +19,12 @@ final aMapOfStringsToInts = {
   'three': 3,
 };
 
+final aListOfInts = <int>[];
+final aSetOfInts = <int>{};
+final aMapOfIntToDouble = <int, double>{};
+
 void main() {
+  print("Some examples of Dart shortcuts by Wander");
   print(addition);
   print(word.toUpperCase());
   print(additionString.toString());
